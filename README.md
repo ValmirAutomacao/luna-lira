@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Luna Lyra
 
-# Run and deploy your AI Studio app
+Landing page em React, Vite e Tailwind CSS para a Luna Lyra.
 
-This contains everything you need to run your app locally.
+## Desenvolvimento
 
-View your app in AI Studio: https://ai.studio/apps/cf0a8fc1-6104-4c94-b536-aaad4305e02e
+```bash
+npm install
+npm run dev
+```
 
-## Run Locally
+O servidor local abre em `http://localhost:3000`.
 
-**Prerequisites:**  Node.js
+## Build
 
+```bash
+npm run build
+npm run preview
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Deploy na Vercel
+
+A Vercel detecta este projeto como Vite automaticamente.
+
+- Framework Preset: `Vite`
+- Build Command: `npm run build`
+- Output Directory: `dist`
+- Install Command: `npm install`
+- Variaveis de ambiente: nenhuma obrigatoria no momento
