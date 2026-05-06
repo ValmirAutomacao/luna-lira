@@ -39,8 +39,8 @@ const Navbar = () => {
 const Hero = () => {
   return (
     <section className="relative pt-32 pb-20 px-8 min-h-[90vh] flex items-center">
-      <div className="absolute inset-0 z-0">
-        <img className="w-full h-full object-cover opacity-80" alt="Mystical woman in celestial setting" src="https://lh3.googleusercontent.com/aida/ADBb0uijRhzqykhwR8X7hDr-VehfYq7vl5v4gjVDiLDAi5Vc_y702DhE396apYyoANvCg-PDYTbgT2gGZsF9dT2l1AZkRId6qNBM5Num2tml-4COSS1D_1b9OvZ8cs0N4KLqaKfyoOxwCRCnFrKjqPnqWU_raCxU663Vziq8VHnRsVOkngE5YMGuvN5Nld3iC0R7njS4DoQw0LWL3oBzGIQkM1oVssv8UlSQYM5-q7aeFeiRTYDtwiv1CW8cBfzqCPPgcvDEOIlAb2nAv3g"/>
+      <div className="absolute inset-0 z-0 overflow-hidden">
+        <img className="h-full w-full scale-[1.55] object-cover object-[68%_42%] opacity-80 md:scale-100 md:object-center" alt="Mulher em ambiente mistico segurando um caderno" src="/hero-mobile.png"/>
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/60 to-transparent"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
       </div>
@@ -400,4 +400,3 @@ export default function App() {
     </div>
   );
 }
-
